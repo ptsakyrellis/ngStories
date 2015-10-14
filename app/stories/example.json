@@ -1,53 +1,94 @@
 {
   "story": {
-    "title": "Mourners",
-    "displayTitle": "Mourners",
+    "title": "Crucifiction",
+    "displayTitle": "† Crucifiction †",
     "date": "mai 2015",
     "author": "pioggia",
     "authorWebsite": "http://pioggia.info",
     "rootPhotoPath": "http://pioggia.info",
     "orientation": "portrait",
     "template": "default",
-    "tags": "photographie,poésie,cimetière,passé,souvenir,gisants,anges,statues",
+    "tags": "photographie,religion,crucifixion,fiction",
     "items" : {
       "item1": {
         "type": "simplePicture",
-        "value": "http://pioggia.info/images/IMG_4208.jpg",
+        "value": "http://pioggia.info/images/IMG_4088.jpg",
         "zoomable": "false",
-        "style": "photos"
+        "style": "photos",
+        "caption" : {
+          "value": "<em>Desespoir<br />Lisbonne, 2007</em>",
+          "style": "caption"
+        }
+      },
+      "sep1": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
       },
       "item3": {
         "type": "simplePicture",
-        "value": "http://pioggia.info/images/IMG_4203.jpg",
+        "value": "http://pioggia.info/images/IMG_0980.jpg",
         "zoomable": "false",
-        "style": "vertPhotos"
+        "style": "vertPhotos",
+        "caption" : {
+          "value": "<em>Desespoir<br />Lisbonne, 2007</em>",
+          "style": "caption"
+        }
+      },
+      "sep2": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
       },
       "item5": {
         "type": "simplePicture",
-        "value": "http://pioggia.info/images/10-2005_59.jpg.jpg",
+        "value": "http://pioggia.info/images/IMG_4152.jpg",
         "zoomable": "false",
-        "style": "vertPhotos"
+        "style": "vertPhotos",
+        "caption" : {
+          "value": "<em>Desespoir<br />Lisbonne, 2007</em>",
+          "style": "caption"
+        }
+      },
+      "sep3": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
       },
       "item6": {
         "type": "simplePicture",
-        "value": "http://pioggia.info/images/IMG_2104.jpg",
+        "value": "http://pioggia.info/images/IMG-40-3.jpg",
         "zoomable": "false",
-        "style": "vertPhotos"
+        "style": "vertPhotos",
+        "caption" : {
+          "value": "<em>Desespoir<br />Lisbonne, 2007</em>",
+          "style": "caption"
+        }
+      },
+      "sep4": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
       },
       "item7": {
         "type": "simplePicture",
-        "value": "http://pioggia.info/images/10-2005_38.jpg",
+        "value": "http://pioggia.info/images/IMG_1017.jpg",
         "zoomable": "false",
-        "style": "vertPhotos"
+        "style": "vertPhotos",
+        "caption" : {
+          "value": "<em>Desespoir<br />Lisbonne, 2007</em>",
+          "style": "caption"
+        }
       }
     },
     "styles": {
       "title": "",
       "mainText":"margin-top:12px; font-style:italic; font-weight:normal; white-space: pre;",
-      "photos": "border-width:36px 24px; border-style:solid; border-color: black;",
-      "vertPhotos": "border-width:24px 36px; border-style:solid; border-color: black;",
-      "divContainer": "text-align:center; margin-top:55px;",
-      "separator": ""
+      "photos": "border-width:18px 12px; border-style:solid; border-color: black;",
+      "vertPhotos": "border-width:12px 18px; border-style:solid; border-color: black;",
+      "divContainer": "text-align:center; margin-top:55px; width:80%;margin:auto;background:#EAEAEA;padding:12px;",
+      "separator": "font-size:1px;line-height:1px;height:1px;border-color:#A7A7A7;margin:22px;border-width:1px 0px 0px 0px;border-style:dotted;",
+      "caption": "color: #4C4C4C;font-size:12px;font-family: georgia,times,serif;"
     }
   }
 }
