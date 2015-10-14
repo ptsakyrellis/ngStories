@@ -1,0 +1,18 @@
+<div style="{{story.styles.divContainer}}">
+    <h1 style="font-family: georgia,times,serif;font-size: 28px;color: #4C4C4C;font-weight: normal;font-style: normal;line-height: 1.4em;">{{ story.displayTitle }}</h1>
+
+    <h2 style="font-family: georgia,times,serif;font-size: 16px;color: #4C4C4C;font-weight: normal;font-style: normal;line-height: 1.4em;">Par {{ story.author }}</h2>
+    <a style="font-family: georgia,times,serif;font-size: 12px;color: #4C4C4C;font-weight: normal;font-style: normal;line-height: 1.4em;">{{ story.authorWebsite }}</a>
+
+    <hr />
+
+    <div ng-repeat="item in story.items">
+        <div ng-if="item.type == 'simplePicture'">
+            <img ng-if="item.type == 'simplePicture'" src="{{item.value}}" style="{{item.style}}" />
+            <p ng-if="item.caption" ng-bind-html="item.caption.value" style="{{item.caption.style}}"></p>
+        </div>
+        <p ng-if="item.type == 'text'" style="{{item.style}}">{{ item.value}}</p>
+        <div ng-if="item.type == 'separator'" style="{{item.style}}" />
+    </div>
+</div>
+

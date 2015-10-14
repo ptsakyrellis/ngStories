@@ -1,0 +1,53 @@
+{
+  "story": {
+    "title": "Mourners",
+    "displayTitle": "Mourners",
+    "date": "mai 2015",
+    "author": "pioggia",
+    "authorWebsite": "http://pioggia.info",
+    "rootPhotoPath": "http://pioggia.info",
+    "orientation": "portrait",
+    "template": "default",
+    "tags": "photographie,poésie,cimetière,passé,souvenir,gisants,anges,statues",
+    "items" : {
+      "item1": {
+        "type": "simplePicture",
+        "value": "http://pioggia.info/images/IMG_4208.jpg",
+        "zoomable": "false",
+        "style": "photos"
+      },
+      "item3": {
+        "type": "simplePicture",
+        "value": "http://pioggia.info/images/IMG_4203.jpg",
+        "zoomable": "false",
+        "style": "vertPhotos"
+      },
+      "item5": {
+        "type": "simplePicture",
+        "value": "http://pioggia.info/images/10-2005_59.jpg.jpg",
+        "zoomable": "false",
+        "style": "vertPhotos"
+      },
+      "item6": {
+        "type": "simplePicture",
+        "value": "http://pioggia.info/images/IMG_2104.jpg",
+        "zoomable": "false",
+        "style": "vertPhotos"
+      },
+      "item7": {
+        "type": "simplePicture",
+        "value": "http://pioggia.info/images/10-2005_38.jpg",
+        "zoomable": "false",
+        "style": "vertPhotos"
+      }
+    },
+    "styles": {
+      "title": "",
+      "mainText":"margin-top:12px; font-style:italic; font-weight:normal; white-space: pre;",
+      "photos": "border-width:36px 24px; border-style:solid; border-color: black;",
+      "vertPhotos": "border-width:24px 36px; border-style:solid; border-color: black;",
+      "divContainer": "text-align:center; margin-top:55px;",
+      "separator": ""
+    }
+  }
+}
