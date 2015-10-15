@@ -1,7 +1,10 @@
 {
   "story": {
-    "title": "Crucifiction",
-    "displayTitle": "† Crucifiction †",
+    "title": {
+      "value": "Le désert du réèl tome 3",
+      "displayTitle": "Le désert du réèl  // Tome 3",
+      "style": "title"
+    },
     "date": "mai 2015",
     "author": "pioggia",
     "authorWebsite": "http://pioggia.info",
@@ -12,80 +15,155 @@
     "items" : {
       "item1": {
         "type": "simplePicture",
-        "value": "http://pioggia.info/images/IMG_4088.jpg",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/692a6a5942293.560254eb5328a.jpg",
         "zoomable": "false",
-        "style": "photos",
-        "caption" : {
-          "value": "<em>Desespoir<br />Lisbonne, 2007</em>",
-          "style": "caption"
-        }
+        "style": "photos"
       },
-      "sep1": {
-        "type": "separator",
-        "style": "separator",
-        "value": ""
-      },
-      "item3": {
-        "type": "simplePicture",
-        "value": "http://pioggia.info/images/IMG_0980.jpg",
+      "sep1": { "type": "separator", "style": "separator", "value": "" },
+      "item2": {
+        "type": "text",
+        "value": "Au charbon... D’abord la traversée monotone<br />de la cite ouvrière, croulant sous une tonne<br />d’absurdes rêves qui bientôt seront oubliés.<br />Ville-rue trop vite traversée, reste à longer <br />",
         "zoomable": "false",
-        "style": "vertPhotos",
-        "caption" : {
-          "value": "<em>Desespoir<br />Lisbonne, 2007</em>",
-          "style": "caption"
-        }
+        "style": "mainText"
       },
       "sep2": {
         "type": "separator",
         "style": "separator",
         "value": ""
       },
-      "item5": {
+      "item3": {
         "type": "simplePicture",
-        "value": "http://pioggia.info/images/IMG_4152.jpg",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/620fd75942294.560254485c490.jpg",
         "zoomable": "false",
-        "style": "vertPhotos",
-        "caption" : {
-          "value": "<em>Desespoir<br />Lisbonne, 2007</em>",
-          "style": "caption"
-        }
+        "style": "vertPhotos"
       },
       "sep3": {
         "type": "separator",
         "style": "separator",
         "value": ""
       },
-      "item6": {
+      "item4": {
         "type": "simplePicture",
-        "value": "http://pioggia.info/images/IMG-40-3.jpg",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/27e0695942295.5602538a87fbe.jpg",
         "zoomable": "false",
-        "style": "vertPhotos",
-        "caption" : {
-          "value": "<em>Desespoir<br />Lisbonne, 2007</em>",
-          "style": "caption"
-        }
+        "style": "vertPhotos"
       },
       "sep4": {
         "type": "separator",
         "style": "separator",
         "value": ""
       },
+      "item5": {
+        "type": "simplePicture",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/f321ba5942296.560254588a28e.jpg",
+        "zoomable": "false",
+        "style": "vertPhotos"
+      },
+      "sep5": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
+      },
+      "item6": {
+        "type": "simplePicture",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/862d6e5942297.5602544b5dcf1.jpg",
+        "zoomable": "false",
+        "style": "photos"
+      },
+      "sep6": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
+      },
       "item7": {
         "type": "simplePicture",
-        "value": "http://pioggia.info/images/IMG_1017.jpg",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/5c01315942298.5602544b861e1.jpg",
         "zoomable": "false",
-        "style": "vertPhotos",
-        "caption" : {
-          "value": "<em>Desespoir<br />Lisbonne, 2007</em>",
-          "style": "caption"
-        }
+        "style": "vertPhotos"
+      },
+      "sep7": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
+      },
+      "item8": {
+        "type": "simplePicture",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/2fb5395942301.56025479932cc.jpg",
+        "zoomable": "false",
+        "style": "vertPhotos"
+      },
+      "sep8": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
+      },
+      "item9": {
+        "type": "simplePicture",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/4575a55942304.560254755231e.jpg",
+        "zoomable": "false",
+        "style": "photos"
+      },
+      "sep9": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
+      },
+      "item10": {
+        "type": "simplePicture",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/608ac05942305.5602544b285c8.jpg",
+        "zoomable": "false",
+        "style": "photos"
+      },
+      "sep10": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
+      },
+      "item11": {
+        "type": "simplePicture",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/848c5d5942306.5602538d225ca.jpg",
+        "zoomable": "false",
+        "style": "photos"
+      },
+      "sep11": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
+      },
+      "item12": {
+        "type": "simplePicture",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/1ff2ce5942307.5602538d40532.jpg",
+        "zoomable": "false",
+        "style": "vertPhotos"
+      },
+      "sep12": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
+      },
+      "item13": {
+        "type": "simplePicture",
+        "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/f2d96b5942309.560254ea09a3b.jpg",
+        "zoomable": "false",
+        "style": "photos"
+      },
+      "sep13": {
+        "type": "separator",
+        "style": "separator",
+        "value": ""
+      },
+      "item14": {
+        "type": "text",
+        "value": "Nous avons brulé ce que nous avons adoré,<br />nous continuerons à adorer ce que nous avons brûlé.",
+        "style": "conclusion"
       }
     },
     "styles": {
-      "title": "",
-      "mainText":"margin-top:12px; font-style:italic; font-weight:normal; white-space: pre;",
-      "photos": "border-width:18px 12px; border-style:solid; border-color: black;",
-      "vertPhotos": "border-width:12px 18px; border-style:solid; border-color: black;",
+      "title": "font-family: georgia,times,serif;font-size: 28px;color: #4C4C4C;font-weight: normal;font-style: normal;line-height: 1.4em;",
+      "mainText":"padding:16px; font-style:italic; font-weight:normal; white-space: pre;color: #4C4C4C;font-size:14px;font-family: georgia,times,serif;",
+      "conclusion":"padding:16px;text-align:right; font-style:italic; font-weight:normal; white-space: pre;color: #4C4C4C;font-size:14px;font-family: georgia,times,serif;",
+      "photos": "border-width:9px 6px; border-style:solid; border-color: black;",
+      "vertPhotos": "border-width:6px 9px; border-style:solid; border-color: black; width:400px;",
       "divContainer": "text-align:center; margin-top:55px; width:80%;margin:auto;background:#EAEAEA;padding:12px;",
       "separator": "font-size:1px;line-height:1px;height:1px;border-color:#A7A7A7;margin:22px;border-width:1px 0px 0px 0px;border-style:dotted;",
       "caption": "color: #4C4C4C;font-size:12px;font-family: georgia,times,serif;"

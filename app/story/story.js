@@ -6,13 +6,16 @@ angular.module('myApp.story', ['ngRoute'])
   $routeProvider.
       when('/story/:storyName', {
           templateUrl: 'templates/story.html',
-          controller: 'View1Ctrl'
+          controller: 'storyCtrl'
       });
 }])
 
-.controller('View1Ctrl', ['$scope', '$http','$routeParams', function($scope, $http, $routeParams) {
+.controller('storyCtrl', ['$scope', '$http','$routeParams', function($scope, $http, $routeParams) {
       $http.get('stories/pioggia/'+$routeParams.storyName+'.json').success(function(data) {
         $scope.story = data.story;
+
+        $scope.story.title.style = $scope.story.styles[$scope.story.title.style];
+
         angular.forEach($scope.story.items, function(item, key) {
           item.style = $scope.story.styles[item.style];
           if(item.caption != null){
