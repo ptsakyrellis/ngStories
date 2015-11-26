@@ -1,10 +1,43 @@
 /* app css stylesheet */
 
-.menu {
+body {
+  background: #333333;
+  font-size: 0.8em;
+}
+
+div#menu {
+  width:15%;
+  min-width: 192px;
+  position:fixed;
+}
+
+div#content {
+  float:left;
+  width:85%;
+  margin-left:15%;
+}
+
+ul {
   list-style: none;
-  border-bottom: 0.1em solid black;
+  border-top: 3px black solid;
+  border-bottom: 3px black solid;
   margin-bottom: 2em;
-  padding: 0 0 0.5em;
+  padding: 1em 0 1em 1em;
+  margin-left:1em;
+}
+
+ul li {
+  padding-bottom:0.4em;
+  color:#8c8c8c;
+}
+
+ul li a{
+  padding-left:0.5em;
+}
+
+a:link, a:hover, a:visited{
+  color:#CCCCCC;
+  text-decoration: none;
 }
 
 .menu:before {

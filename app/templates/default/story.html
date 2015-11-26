@@ -1,0 +1,19 @@
+<div style="{{story.styles.divContainer}}">
+    <div id="storyHeader">
+        <h1 style="{{story.title.style}}">{{ story.title.displayTitle }}</h1>
+        <p style="{{story.subtitle.style}}">{{ story.subtitle.value }}</p>
+        <hr style="{{story.styles.separator}}"/>
+        <br />
+    </div>
+    <div>
+        <div ng-repeat="item in story.items">
+            <div ng-if="item.type == 'simplePicture'">
+                <img ng-if="item.type == 'simplePicture'" ng-src="{{item.value}}" style="{{item.style}}" />
+                <p ng-if="item.caption" ng-bind-html="item.caption.value" style="{{item.caption.style}}"></p>
+            </div>
+            <p ng-if="item.type == 'text'" ng-bind-html="item.value" style="{{item.style}}"></p>
+            <div ng-if="item.type == 'separator'" style="{{item.style}}" />
+        </div>
+    </div>
+</div>
+<div style="position:fixed; bottom:0px;right:0px;padding:10px 16px 10px 10px">pioggia.info</div>

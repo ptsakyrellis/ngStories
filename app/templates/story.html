@@ -1,19 +1,21 @@
-<div style="{{story.styles.divContainer}}">
-    <h1 style="{{story.title.style}}">{{ story.title.displayTitle }}</h1>
-
-    <!--<h2 style="font-family: georgia,times,serif;font-size: 16px;color: #4C4C4C;font-weight: normal;font-style: normal;line-height: 1.4em;">Par {{ story.author }}</h2>-->
-    <!--<a style="font-family: georgia,times,serif;font-size: 12px;color: #4C4C4C;font-weight: normal;font-style: normal;line-height: 1.4em;">{{ story.authorWebsite }}</a>-->
-
-    <hr />
-    <div style="overflow: auto; height: 580px;">
-        <div ng-repeat="item in story.items">
-            <div ng-if="item.type == 'simplePicture'">
-                <img ng-if="item.type == 'simplePicture'" ng-src="{{item.value}}" style="{{item.style}}" />
-                <p ng-if="item.caption" ng-bind-html="item.caption.value" style="{{item.caption.style}}"></p>
+<div>
+    <div style="{{story.styles.divContainer}}">
+        <div id="storyHeader">
+            <h1 style="{{story.title.style}}">{{ story.title.displayTitle }}</h1>
+            <p style="{{story.subtitle.style}}">{{ story.subtitle.value }}</p>
+            <hr style="{{story.styles.separator}}"/>
+            <br />
+        </div>
+        <div>
+            <div ng-repeat="item in story.items">
+                <div ng-if="item.type == 'simplePicture'">
+                    <img ng-if="item.type == 'simplePicture'" ng-src="{{item.value}}" style="{{item.style}}" />
+                    <p ng-if="item.caption" ng-bind-html="item.caption.value" style="{{item.caption.style}}"></p>
+                </div>
+                <p ng-if="item.type == 'text'" ng-bind-html="item.value" style="{{item.style}}"></p>
+                <div ng-if="item.type == 'separator'" style="{{item.style}}" />
             </div>
-            <p ng-if="item.type == 'text'" ng-bind-html="item.value" style="{{item.style}}"></p>
-            <div ng-if="item.type == 'separator'" style="{{item.style}}" />
         </div>
     </div>
+    <div style="position:fixed; bottom:0px;right:0px;padding:10px 16px 10px 10px">pioggia.info</div>
 </div>
-
