@@ -1,5 +1,5 @@
 'use strict';
-var storiesPath = "stories/pioggia/";
+var storiesPath = "stories/";
 
 
 // Declare app level module which depends on views, and components
@@ -19,12 +19,10 @@ angular.module('myApp', [
         };
     });
 
-
 // Story module routes
 angular.module('myApp.story', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-
     $routeProvider.when('/story/:storyName', {
           templateUrl: 'templates/storyWrapper.html',
           controller: 'storyCtrl'
@@ -45,6 +43,5 @@ angular.module('myApp.story', ['ngRoute'])
               item.caption.style = $scope.story.styles[item.caption.style];
           }
         });
-
       });
 }]);
