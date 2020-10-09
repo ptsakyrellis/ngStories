@@ -11,11 +11,15 @@ Then each gallery is displayed according to the json file.
 
 ## Getting Started
 
-You can clone this github repository.
+* Clone this github repository.
 
-Then npm install will install the required libraries.
+* npm install will install the required libraries.
 
-npm start will start the app.
+* npm start will start the app. You can also directly run the web server with : 
+
+```shell script
+$ http-server ./app -a localhost -p 8000 -d false
+```
 
 ## Demo
 

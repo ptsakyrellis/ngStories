@@ -1,31 +1,22 @@
 'use strict';
 var storiesPath = "stories/";
 
-
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
     'ngRoute',
     'myApp.story',
     'ngSanitize'
-]).
-    config(['$routeProvider', function($routeProvider) {
-        $routeProvider.otherwise({redirectTo: ''});
+])
+    .config(['$routeProvider', function($routeProvider) {
+    $routeProvider.otherwise({redirectTo: ''});
     }])
-    .directive('ngStory', function() {
-        return {
-            restrict: 'AE',
-            replace: 'true',
-            templateUrl: 'templates/default/story.html'
-        };
-    });
 
 // Story module routes
 angular.module('myApp.story', ['ngRoute'])
-
 .config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/story/:storyName', {
-          templateUrl: 'templates/storyWrapper.html',
-          controller: 'storyCtrl'
+        templateUrl: 'templates/storyWrapper.html',
+        controller: 'storyCtrl'
     });
 }])
 
@@ -41,4 +32,6 @@ angular.module('myApp.story', ['ngRoute'])
           }
         });
       });
+
+      $scope.templateUrl = "templates/default/story.html";
 }]);
