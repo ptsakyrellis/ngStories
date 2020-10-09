@@ -1,17 +1,17 @@
 {
   "story": {
     "title": {
-      "value": "Le désert du réèl tome 3",
-      "displayTitle": "Le désert du réèl  // Tome 3",
+      "value": "Lorem Ipsum Story",
+      "displayTitle": "The story of lorem ipsum - Part II",
       "style": "title"
     },
     "date": "mai 2015",
     "author": "pioggia",
-    "authorWebsite": "http://pioggia.info",
-    "rootPhotoPath": "http://pioggia.info",
+    "authorWebsite": "http://mysite.info",
+    "rootPhotoPath": "http://mysite.info",
     "orientation": "portrait",
     "template": "default",
-    "tags": "photographie,religion,crucifixion,fiction",
+    "tags": "photography, landscape",
     "items" : {
       "item1": {
         "type": "simplePicture",
@@ -19,7 +19,7 @@
         "zoomable": "false",
         "style": "photos"
       },
-      "sep1": { "type": "separator", "style": "separator", "value": "" },
+      "sep1": { "type": "separator", "style": "separator"},
       "item2": {
         "type": "text",
         "value": "Au charbon... D’abord la traversée monotone<br />de la cite ouvrière, croulant sous une tonne<br />d’absurdes rêves qui bientôt seront oubliés.<br />Ville-rue trop vite traversée, reste à longer <br />",
@@ -28,14 +28,17 @@
       },
       "sep2": {
         "type": "separator",
-        "style": "separator",
-        "value": ""
+        "style": "separator"
       },
       "item3": {
         "type": "simplePicture",
         "value": "https://mir-cdn.behance.net/v1/rendition/project_modules/disp/620fd75942294.560254485c490.jpg",
         "zoomable": "false",
-        "style": "vertPhotos"
+        "style": "vertPhotos",
+        "caption": {
+          "value": "Caption example",
+          "style": "caption"
+        }
       },
       "sep3": {
         "type": "separator",
@@ -159,14 +162,14 @@
       }
     },
     "styles": {
-      "title": "font-family: georgia,times,serif;font-size: 28px;color: #4C4C4C;font-weight: normal;font-style: normal;line-height: 1.4em;",
+      "title": "font-family:georgia,times,serif;font-size: 29px;color: #4C4C4C;font-weight: normal;font-style: normal;line-height: 1.4em;",
       "mainText":"padding:16px; font-style:italic; font-weight:normal; white-space: pre;color: #4C4C4C;font-size:14px;font-family: georgia,times,serif;",
       "conclusion":"padding:16px;text-align:right; font-style:italic; font-weight:normal; white-space: pre;color: #4C4C4C;font-size:14px;font-family: georgia,times,serif;",
       "photos": "border-width:9px 6px; border-style:solid; border-color: black;",
       "vertPhotos": "border-width:6px 9px; border-style:solid; border-color: black; width:400px;",
       "divContainer": "text-align:center; margin-top:55px; width:80%;margin:auto;background:#EAEAEA;padding:12px;",
       "separator": "font-size:1px;line-height:1px;height:1px;border-color:#A7A7A7;margin:22px;border-width:1px 0px 0px 0px;border-style:dotted;",
-      "caption": "color: #4C4C4C;font-size:12px;font-family: georgia,times,serif;"
+      "caption": "color:#4C4C4C;font-size:12px;font-family: georgia,times,serif; font-style:italic;"
     }
   }
 }

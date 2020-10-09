@@ -61,3 +61,16 @@ a:link, a:hover, a:visited{
   content: "";
   padding: 0;
 }
+
+#authorWebsiteLink {
+  position:fixed;
+  bottom:0px;
+  right:0px;
+  padding:10px 16px 10px 10px;
+  background: #CCCCCC;
+  border: 1px grey solid;
+}
+
+#authorWebsiteLink a {
+  color: #222222;
+}

@@ -15,7 +15,7 @@ angular.module('myApp', [
         return {
             restrict: 'AE',
             replace: 'true',
-            templateUrl: 'templates/story.html'
+            templateUrl: 'templates/default/story.html'
         };
     });
 
@@ -30,12 +30,9 @@ angular.module('myApp.story', ['ngRoute'])
 }])
 
 .controller('storyCtrl', ['$scope', '$http','$routeParams', function($scope, $http, $routeParams) {
-
       $http.get(storiesPath+$routeParams.storyName+'.json').success(function(data) {
         $scope.story = data.story;
-
         $scope.story.title.style = $scope.story.styles[$scope.story.title.style];
-        $scope.story.subtitle.style = $scope.story.styles[$scope.story.subtitle.style];
 
         angular.forEach($scope.story.items, function(item, key) {
           item.style = $scope.story.styles[item.style];
